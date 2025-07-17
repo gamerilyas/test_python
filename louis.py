@@ -12,3 +12,4 @@ id(c)
 # push in github
 
 # git commit -m "first commit"
+# je crée un programme en python
