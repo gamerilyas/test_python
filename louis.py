@@ -17,16 +17,41 @@
 #print(b)
 #nombre = input("Entrez un nombre: ")
 #print(nombre)
-
 #--------------------------------------------------------------------
-
 
 # Demander un premier nombre à l'utilisateur
 # Demander un deuxième nombre à l'utilisateur
 # Additionner les deux nombres ensembles
 # Afficher le résultat à l'utilisateur
 
-a = input("Premier nombre : ")
-b = input("Deuxième nombre : ")
-c = a + b 
-print("le résultat est "+ c)
+#--------------------------------------------------------------------
+
+#a = input("Premier nombre : ")
+#b = input("Deuxième nombre : ")
+#c = a + b 
+#print("le résultat est "+ c)
+
+#--------------------------------------------------------------------
+
+"Bonjour".upper()
+"Bonjour".lower()
+"bonjour tout le monde".capitalize()
+"bonjour tout le monde".title()
+
+"bonjour".replace("jour", "soir")
+"bonjour bonjour".remplace("jour", "soir")
+"bonjour bonjour".remplace(" ", "")
+"bonjour bonjour".remplace(" ", "").remplace("jour", "soir")
+
+"  bonjour  ".strip()
+"  bon  jour  ".strip()
+"  bonjour  ".strip(" ujor")
+"  bonjour  ".rstrip(" ujor")
+"  bonjour  ".lstrip(" ujor")
+
+"1, 2, 3, 4, 5".split(", ")
+", ".join("1, 2, 3, 4, 5".spilt(", "))
+".".join("1, 2, 3, 4, 5".split(", "))
+"-".join(['1', '2', '3'])
+
+"9".zfill(4)
