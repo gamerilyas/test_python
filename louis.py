@@ -56,6 +56,22 @@
 
 #--------------------------------------------------------------------
 
+#"9".zfill(4)
+#"9".zfill(3)
+#for i in rage(100)
+#print(i)
+#print(str(i).zfill(4))
+
+#"bonjour".islower
+#"Bonjour".islower
+#"Bonjour tous le monde".istitle
+#"Bonjour Tous Le Monde".istitle
+
+#"50".isdigit()
+#"a".isdigit()
+#"50a".isdigit()
+#input()
+
 "9".zfill(4)
 "9".zfill(3)
 for i in rage(100)
@@ -67,7 +83,5 @@ print(str(i).zfill(4))
 "Bonjour tous le monde".istitle
 "Bonjour Tous Le Monde".istitle
 
-"50".isdigit()
-"a".isdigit()
-"50a".isdigit()
-input()
+"Bonjour le jour".count("jour")
+"bonjour le jour".count(' jour')
